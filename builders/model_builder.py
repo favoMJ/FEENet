@@ -54,4 +54,4 @@ def build_model(model_name, num_classes,is_training=True):
     elif model_name == 'FPENet':
         return FPENet(classes=num_classes)
     elif model_name == 'FFENet':
-        return BiSeNet(classes=num_classes,pretrained_model=True,is_training=is_training)
+        return FFENet(classes=num_classes,pretrained_model=True,is_training=is_training)
